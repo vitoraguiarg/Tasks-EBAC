@@ -1,7 +1,6 @@
-package br.com.vaguiar;
+package br.com.vaguiar.intermediaryOperators;
 
 import java.util.List;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class FilterExample {

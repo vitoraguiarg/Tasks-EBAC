@@ -1,6 +1,4 @@
-package br.com.vaguiar;
-
-import org.w3c.dom.stylesheets.LinkStyle;
+package br.com.vaguiar.intermediaryOperators;
 
 import java.util.List;
 
@@ -61,4 +59,14 @@ public class People {
         People p6 = new People("koly", 17, "EUA", 1.78);
         return List.of(p1,p2,p3,p4,p5,p6);
     };
+
+    @Override
+    public String toString() {
+        return "People{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", nationality='" + nationality + '\'' +
+                ", height=" + height +
+                '}';
+    }
 }
