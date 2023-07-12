@@ -51,7 +51,7 @@ public class People {
     }
 
     public List<People> populatedPeoples() {
-        People p1 = new People("Vitor", 21, "Brasil", 1.75);
+        People p1 = new People("Vitor", 21, "Spain", 1.75);
         People p2 = new People("Jeremy", 56, "Senegal", 1.95);
         People p3 = new People("Pep", 75, "England", 1.80);
         People p4 = new People("Jaf", 31, "Spain", 1.60);

@@ -22,6 +22,5 @@ public class CollectExample {
                 .filter(people -> people.getName().startsWith("V"))
                 .collect(Collectors.toList());
         peoplesWithV.forEach(people -> System.out.println(people.getName()));
-        
     }
 }
